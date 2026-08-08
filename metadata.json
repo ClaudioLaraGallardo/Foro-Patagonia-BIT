@@ -1,0 +1,6 @@
+{
+  "name": "Foro Patagónico de Innovación",
+  "description": "Landing page for the Foro Patagónico de Innovación y Desarrollo Territorial event.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
