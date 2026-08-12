@@ -266,17 +266,27 @@ export default function App() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-0 border-l-2 border-t-2 border-black">
             {[
               { name: "Silvia Torre Carbonell", role: "Presidente Emérita Emprende IAE", inst: "IAE Business School", img: "/silvia.jfif", linkedin: "https://www.linkedin.com/in/silvia-torres-carbonell-021390/" },
-              { name: "Graciela Martínez", role: "Gerente General", inst: "Cotesma", img: "/graciela.png", linkedin: "https://www.linkedin.com/in/gracielammartinez/" },
+              { name: "Graciela Martínez", role: "Gerente General", inst: "Cotesma", img: "/graciela.jpeg", linkedin: "https://www.linkedin.com/in/gracielammartinez/" },
               { name: "Carina Rapetti", role: "Governance & Strategy", inst: "Innovation Ecosystems", img: "/carina.jfif", linkedin: "https://www.linkedin.com/in/carina-rapetti/?locale=es" },
               { name: "Silvina Terroni", role: "Directora Ejecutiva", inst: "Parque Empresarial Austral", img: "/silvina.jfif", linkedin: "https://www.linkedin.com/in/silvina-terroni-62545514/" },
               { name: "Yamil Santoro", role: "CEO", inst: "Parque de Innovación BA", img: "/yamil.jfif", linkedin: "https://www.linkedin.com/in/yamilsantoro/" },
-              { name: "Pablo Lang", role: "Founder & C.E.O.", inst: "LANG TECNOLOGIA - POPEY.CLOUD", img: "/pablo.jfif", linkedin: "https://www.linkedin.com/in/pablo-lang-popey/" },
-              { name: "Nicole Fusilier", role: "Presidenta y Fundadora", inst: "Una Sola Familia A.C. | RIL", img: "/nicole.jfif", linkedin: "https://www.linkedin.com/in/nicole-fusilier-26280994/" },
-              { name: "Mariano Román", role: "Líder de Innovación y Tecnología", inst: "-", img: "/mariano.jfif", linkedin: "https://www.linkedin.com/in/mariano-alonso-roman/" },
+              { name: "Pablo Lang", role: "Founder & C.E.O.", inst: "Cluster Tecnologico Tandil, Buenos Aires", img: "/pablo.jfif", linkedin: "https://www.linkedin.com/in/pablo-lang-popey/" },
+              { name: "Nicole Fusilier", role: "Presidenta y Fundadora", inst: "Red de Innovacion Local (RIL)", img: "/nicole.jfif", linkedin: "https://www.linkedin.com/in/nicole-fusilier-26280994/" },
+              { name: "Mariano Román", role: "Líder de Innovación y Tecnología", inst: "Cotesma", img: "/mariano.jfif", linkedin: "https://www.linkedin.com/in/mariano-alonso-roman/" },
               { name: "Luis Bullrich", role: "Consultor ecosistemas innovación", inst: "Partner Next Tide", img: "/luis.jfif", linkedin: "https://www.linkedin.com/in/luismariabullrich/" },
               { name: "Isidora Cabezón Papic", role: "Directora Ejecutiva", inst: "CRTIC", img: "/isidora.jfif", linkedin: "https://www.linkedin.com/in/isidora-cabez%C3%B3n-papic/" },
               { name: "Marco Gallardo", role: "Jefe Div. Fomento e industria", inst: "Gob. Regional La Araucanía", img: "/marco.jfif", linkedin: "https://www.linkedin.com/in/marcogallardo/" },
               { name: "Henry Leal", role: "Director Regional Corfo", inst: "Región de La Araucanía", img: "/henry.jfif", linkedin: "https://www.linkedin.com/in/henry-leal-bizama-759363290/" },
+              { name: "Carlos Jaureguiberry", role: "Vicepresidente del Consejo de Administración", inst: "COTESMA", img: "/carlos_jaureguiberry.jpg", linkedin: "https://www.linkedin.com/in/carlos-jaureguiberry-06123272" },
+              { name: "Roberto Dib Ashur", role: "Ministro de Economía y Servicios Públicos", inst: "Gobierno de la Provincia de Salta", img: "/roberto_dib_ashur.jpeg", linkedin: "https://www.linkedin.com/in/roberto-dib-ashur-864b93135" },
+              { name: "Juan Manuel Morales", role: "Subsecretario de Industria y Modernización", inst: "Gobierno de la Provincia del Neuquén", img: "/juan_manuel_morales.jfif", linkedin: "https://www.linkedin.com/in/juanmamorales4" },
+              { name: "Juan Pablo Luna", role: "Co-Fouder Qenti Latam", inst: "Qenti Latam / Facultad de Ciencias Económicas - UNPSJB", img: "/juan_pablo_luna.jfif", linkedin: "https://www.linkedin.com/in/jplpatagonia" },
+              { name: "Santiago Penone", role: "Co-fundador", inst: "Tuki Travel", img: "/santiago_penone.jfif", linkedin: "https://www.linkedin.com/in/santiago-penone/" },
+              { name: "Nicolas Dimarco", role: "Co-fundador", inst: "Farox / Patio Nerworrk", img: "/nicolas_dimarco.jfif", linkedin: "https://www.linkedin.com/in/nicolas-dimarco" },
+              { name: "Andrés Basilio Agres", role: "Rector", inst: "Instituto Tecnológico de Buenos Aires (ITBA)", img: "/andres_agres.jpg", linkedin: "https://ar.linkedin.com/in/andresagres" },
+              { name: "Jorge Farías Avendaño", role: "Decano de la Facultad de Ingeniería y Ciencias", inst: "Universidad de La Frontera (UFRO)", img: "/jorge_farias.jfif", linkedin: "https://www.linkedin.com/in/jorge-farías-avendaño" },
+              { name: "Roberto Lino Blanco", role: "Consultor especializado en Oil & Gas — Vaca Muerta", inst: "Consultor independiente", img: "/roberto_lino.jfif", linkedin: "https://ar.linkedin.com/in/roberto-lino-blanco-7871849" },
+              { name: "Fernando Banderet", role: "Intendente", inst: "Municipalidad de Añelo", img: "/fernando_banderet.jpg", linkedin: "https://www.linkedin.com/in/fernando-banderet-080568237" },
             ].map((guest, idx) => {
               const CardContent = (
                 <>
