@@ -266,7 +266,7 @@ export default function App() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-0 border-l-2 border-t-2 border-black">
             {[
               { name: "Silvia Torre Carbonell", role: "Presidente Emérita Emprende IAE", inst: "IAE Business School", img: "/silvia.jfif", linkedin: "https://www.linkedin.com/in/silvia-torres-carbonell-021390/" },
-              { name: "Graciela Martínez", role: "Gerente General", inst: "Cotesma", img: "/graciela.jpeg", linkedin: "https://www.linkedin.com/in/gracielammartinez/" },
+              { name: "Graciela Martínez", role: "Gerente General", inst: "Cotesma", img: "https://raw.githubusercontent.com/ClaudioLaraGallardo/Foro-Patagonia-BIT/8778ce99a3b973f9d01af3f7ab8a3e1dce843098/public/graciela.jpeg", linkedin: "https://www.linkedin.com/in/gracielammartinez/" },
               { name: "Carina Rapetti", role: "Governance & Strategy", inst: "Innovation Ecosystems", img: "/carina.jfif", linkedin: "https://www.linkedin.com/in/carina-rapetti/?locale=es" },
               { name: "Silvina Terroni", role: "Directora Ejecutiva", inst: "Parque Empresarial Austral", img: "/silvina.jfif", linkedin: "https://www.linkedin.com/in/silvina-terroni-62545514/" },
               { name: "Yamil Santoro", role: "CEO", inst: "Parque de Innovación BA", img: "/yamil.jfif", linkedin: "https://www.linkedin.com/in/yamilsantoro/" },
